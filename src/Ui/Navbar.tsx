@@ -32,6 +32,7 @@ export default function Navbar() {
           <Button
             onClick={handleButtonClick}
             className="border-2 rounded-lg h-10 w-10 p-2 hover:bg-gray-400 md:hidden flex items-center justify-center"
+            imageSrc="/src/assets/hamburger.png"
           />
         </div>
 

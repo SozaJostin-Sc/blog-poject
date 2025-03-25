@@ -3,7 +3,7 @@ export default function Presentation() {
     <>
       <div className="w-80 p-6 border rounded-lg shadow-sm">
         <img
-          src="/public/profile-user.png"
+          src="../public/profile-user.png"
           alt="Profile"
           className="w-24 h-24 rounded-full mx-auto mb-4"
         />
