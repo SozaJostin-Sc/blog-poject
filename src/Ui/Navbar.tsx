@@ -3,6 +3,7 @@ import Button from "../components/Button";
 import NavbarElements, {
   NavbarElementsLinks,
 } from "../components/NavbarElements";
+import { images } from "../routes/routes";
 
 export default function Navbar() {
   const [showElements, setShowElements] = useState(false);
@@ -32,7 +33,7 @@ export default function Navbar() {
           <Button
             onClick={handleButtonClick}
             className="border-2 rounded-lg h-10 w-10 p-2 hover:bg-gray-400 md:hidden flex items-center justify-center"
-            imageSrc="/src/assets/hamburger.png"
+            imageSrc={images.hamburger}
           />
         </div>
 

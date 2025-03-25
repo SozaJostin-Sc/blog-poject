@@ -1,9 +1,11 @@
+import { images } from "../routes/routes";
+
 export default function Presentation() {
   return (
     <>
       <div className="w-80 p-6 border rounded-lg shadow-sm">
         <img
-          src="../public/profile-user.png"
+          src={images.profileUser}
           alt="Profile"
           className="w-24 h-24 rounded-full mx-auto mb-4"
         />
